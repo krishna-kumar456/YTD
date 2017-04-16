@@ -1,0 +1,1 @@
+youtube-dl --extract-audio --audio-format "mp3" --audio-quality 0 --youtube-skip-dash-manifest -o "/Users/redfruit/Documents/Projects/Python-YTD/File-Store/%(title)s.%(ext)s" https://www.youtube.com/watch?v=
