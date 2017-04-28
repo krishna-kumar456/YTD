@@ -177,8 +177,8 @@ def index():
 	print('After sorting, going to render now')
 
 	#return render_template('index.html', errors=errors, fnn_results=final_results)
-	#return render_template('testfront.html', errors=errors, fnn_results=final_results)
-	return render_template('nindex.html')
+	return render_template('testfront.html', errors=errors, fnn_results=final_results)
+	#return render_template('nindex.html')
 
 @app.teardown_appcontext
 def shutdown_session(exception=None):
